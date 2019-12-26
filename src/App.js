@@ -51,6 +51,7 @@ class App extends Component {
     this.setState({
       isActive: !this.state.isActive
     })
+    console.log('state = ' + this.state.isActive);
   }
 
   render() {
